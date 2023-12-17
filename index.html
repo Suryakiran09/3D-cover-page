@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="section-1">
+        <button>click me</button>
+        <div class="container">
+            <div class="front">
+                <nav>
+                    <div class="logo">
+                        <img src="" alt="">
+                        
+                    </div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Solutions</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <div class="about">
+                        <h1>Welcome,</h1>
+                        <h3>Our company provides you the best insights your valuable data and we help you with gaining profits</h3>
+                        <div class="social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-instagram fa-2x  "></i></a></li>
+                                <li><a href="#"><i class="fas fa-mail-bulk fa-2x "></i></a></li>
+                                <li><a href="#"><i class="fab fa-github fa-2x  "></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter fa-2x fa-fw"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="back"></div>
+        </div>
+    </section>
+
+    <section class="section-2">
+
+    </section>
+
+    <section class="section-3">
+
+    </section>
+
+    <section class="section-4">
+
+    </section>
+</body>
+
+<script>
+    let container = document.body.querySelector('.container')
+    let button = document.body.querySelector('button');
+
+    button.onclick = () =>{
+        container.classList.toggle('rotate');
+    }
+
+</script>
+</html>
