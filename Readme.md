@@ -1,1 +1,1 @@
-This is a 3d cover page of a website
+This is a 3d front page of a website
